@@ -7,11 +7,6 @@ namespace AliReaza\Tests\UUID\Unit;
 use AliReaza\UUID\V4 as UUID_V4;
 use PHPUnit\Framework\TestCase;
 
-/**
- * Class V4Test
- *
- * @package AliReaza\Tests\UUID\Unit
- */
 class V4Test extends TestCase
 {
     public function test_When_create_new_V4_Expect_string_with_a_length_of_36_characters()

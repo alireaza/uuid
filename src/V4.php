@@ -4,16 +4,8 @@ namespace AliReaza\UUID;
 
 use Throwable;
 
-/**
- * Class V4
- *
- * @package AliReaza\UUID
- */
 class V4
 {
-    /**
-     * @return string
-     */
     public function __toString(): string
     {
         try {
